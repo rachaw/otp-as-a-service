@@ -1,13 +1,12 @@
 package com.ibm.sdp.rest.dao;
-import java.sql.*;
 import java.io.PrintWriter;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Set;
 
-import com.ibm.db2.jcc.DB2SimpleDataSource;
 import com.ibm.nosql.json.api.BasicDBList;
 import com.ibm.nosql.json.api.BasicDBObject;
 import com.ibm.nosql.json.util.JSON;
